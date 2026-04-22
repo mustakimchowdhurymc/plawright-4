@@ -14,7 +14,7 @@ test.beforeEach('has title', async ({ page }) => {
 
 test('user facing locators ', async ({ page }) => {
 
-  // get by role
+  // get by role test
 
   await page.getByRole('textbox', { name: "Email" }).first().fill('Mustakim@gmail.com');
   // assertion
